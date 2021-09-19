@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  height: 36px;
+  background-color: #222;
+  padding: 8px 16px 8px 32px;
+  justify-content: space-between;
+}
+
+.header .logo {
+  background-color: #ff7f7f;
+  height: 35px;
+  animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.header .bookShow {
+  margin-right: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
