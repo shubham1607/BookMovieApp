@@ -4,3 +4,35 @@ h1 {
   text-align: center;
   background-color: #ff9999;
 }
+
+.gridRoot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.gridList {
+  flex-wrap: nowrap !important;
+  transform: translateZ(0);
+}
+
+.releasedMoviesContainer {
+  display: flex;
+}
+
+.releasedMoviesContainer .left {
+  width: 76%;
+  margin: 16px;
+}
+
+.releasedMoviesContainer .right {
+  width: 24%;
+  margin: 16px;
+}
+
+.card {
+  margin: 8px;
+  min-width: 240px;
+  max-width: 240px;
+}

@@ -1,0 +1,23 @@
+.back-button {
+  cursor: pointer;
+  color: #000;
+  margin: 8px 0 0 24px;
+  height: 24px;
+}
+
+.details-container {
+  display: flex;
+}
+
+.details-container .left {
+  width: 20%;
+}
+
+.details-container .middle {
+  width: 80%;
+  margin: 0 8px;
+}
+
+.details-container .right {
+  width: 20%;
+}
